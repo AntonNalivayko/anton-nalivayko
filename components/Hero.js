@@ -17,7 +17,7 @@ const Hero = ({ru, setRu}) => {
     <section className="section position-relative sect1" id='home'  style={{height: '100vh'}}>
       <Container className='home'>
       <Particles 
-        className="particles-canvas"
+        className="particles-canvas d-none d-sm-block"
         style={{
           position: "absolute",
           top: 0,
