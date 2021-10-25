@@ -63,7 +63,7 @@ const Hero = ({ru, setRu}) => {
               <p className="text-uppercase text-mutted font-weight-medium f-14 mb-4 d-none d-lg-block d-xl-block d-xxl-block home-top-text">Добро пожаловать на мою страницу!<br/> Она разработана на NEXT.js</p>
               }
 
-              {ru ? <h1 className="mb-4 font-weight-normal line-height-1_4 homeTitle mt-5 mt-lg-1 mt-xl-1 mt-xxl-1" >Привет, меня зовут <span className="text-primary font-weight-medium">Антон</span>, я frontend разработчик. </h1> :
+              {ru ? <h1 className="mb-4 font-weight-normal line-height-1_4 homeTitle mt-5 mt-lg-1 mt-xl-1 mt-xxl-1" >Привет, меня зовут <span className="text-primary font-weight-medium">Антон Н.</span>, я frontend разработчик. </h1> :
               <h1 className="mb-4 font-weight-normal line-height-1_4 homeTitle mt-5 mt-lg-1 mt-xl-3 mt-xxl-5" >Hi, I'm <span className="text-primary font-weight-medium">Anton Nalivayko</span>, frontend developer. </h1>}
               {ru ? <p className="text-muted mb-4 pb-2 homeText"  >Занимаюсь разработкой фронтовой части web SPA и SSR приложений с применением React.js и Next.js. Участвовал в разработке ERP систем и не только. Опыт коммерческой разработки на React.js 8 месяцев.</p>:
               <p className="text-muted mb-4 pb-2 homeText"  >I am developing the front-end web SPA and SSR applications using React.js and Next.js. Participated in the development of ERP systems and not only. Experience in commercial development with React.js for 8 months.</p>}
