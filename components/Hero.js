@@ -81,8 +81,10 @@ const Hero = ({ru, setRu}) => {
   </div>
           </Col>
           <Col lg={6} className='mt-4 mt-sm-0 order-first order-sm-first order-lg-last order-md-first order-xl-last'>
-            <div className="mt-5 mt-5 mt-lg-0" data-aos={"fade-left"}>
-            {/*  */}
+            <div className=" d-none d-sm-block mt-5 mt-5 mt-lg-0" data-aos={"fade-left"}>
+              <img src='images/myphoto.png' alt="" className="img-fluid mx-auto d-block shadow" style={{width: '60%', borderRadius: 2}} />
+            </div>
+            <div className="mt-5 mt-5 mt-lg-0 d-block d-sm-none">
               <img src='images/myphoto.png' alt="" className="img-fluid mx-auto d-block shadow" style={{width: '60%', borderRadius: 2}} />
             </div>
           </Col>
